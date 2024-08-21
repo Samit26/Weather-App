@@ -56,7 +56,7 @@ const weatherData = async (city, key) => {
     console.log("City is null");
   }
 };
-// weatherData(city, key);
+weatherData(city, key);
 
 const getValue = () => {
   let val = document.getElementById("city-input");
